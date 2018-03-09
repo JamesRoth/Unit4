@@ -20,7 +20,6 @@ double(True)
 def bigger(a,b):
     if a>b:
         print(a)
-    elif b>a:
-        print(b)
-    else:
-        print("They're equal")
+   else:
+       print(b)
+bigger(12, 5)
