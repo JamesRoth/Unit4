@@ -17,9 +17,14 @@ double("wowwow")
 double(True)
 """
 
+"""
 def bigger(a,b):
     if a>b:
         print(a)
     else:
        print(b)
 bigger(12, 5)
+"""
+
+def slope(x1,y1,x2,y2):
+    print((y1-y2)/(x1-x2))
