@@ -12,3 +12,4 @@ def double(thingToDouble):
     print(thingToDouble*2)
 
 double(12)
+double("wowwow")
