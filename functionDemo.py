@@ -32,5 +32,6 @@ def slope(x1,y1,x2,y2):
 i=1
 while 1:
     print("James")
-    if i=10:
+    i+=1
+    if i==10:
         break
