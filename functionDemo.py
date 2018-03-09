@@ -2,6 +2,13 @@
 #3/9/18
 #functionDemo.py - writing functions
 
+"""
 def hw():
     print("Hello world")
-hw()
+hw() #test of our function
+"""
+
+def double(thingToDouble):
+    print(thingToDouble*2)
+
+double(12)
