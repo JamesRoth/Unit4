@@ -13,3 +13,4 @@ def double(thingToDouble):
 
 double(12)
 double("wowwow")
+double(False)
