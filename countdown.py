@@ -5,5 +5,5 @@
 def countdown(a):
     for i in range(1, a+1):
         print((a+1)-i)
-    print(BOOM1)
+    print("BOOM!")
 countdown(10)
