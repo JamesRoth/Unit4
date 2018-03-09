@@ -28,3 +28,4 @@ bigger(12, 5)
 
 def slope(x1,y1,x2,y2):
     print((y1-y2)/(x1-x2))
+slope(10,5,3,4)
