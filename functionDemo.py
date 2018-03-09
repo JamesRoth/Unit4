@@ -29,7 +29,7 @@ bigger(12, 5)
 def slope(x1,y1,x2,y2):
     print((y1-y2)/(x1-x2))
 #slope(10,5,3,4)
-i=1
+i=1 #surprisingly enough, if you input 1 for true, the loop will run as true, since python outputs the True boolean as 1
 while 1:
     print("James")
     i+=1
