@@ -7,6 +7,8 @@ from ggame import *
 
 outline=LineStyle(0xffffff,1)
 
+color=Color(0xffff00,1)
+
 def mouseClick(event):
     int=randint(1,6)
     if int==1:
@@ -22,7 +24,7 @@ def mouseClick(event):
     else:
         color=Color(0xffffff,1)
 
-rectangle=RectangleAsset(1000,2000,outline,color)
+rectangle=RectangleAsset(1000, 2000, outline, color)
 
 Sprite(rectangle)
 
