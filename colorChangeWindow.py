@@ -5,7 +5,7 @@
 from random import randint
 from ggame import *
 
-outline=LineStyle(1,0xffffff)
+outline=LineStyle(1,Color(0x00ffff, 1))
 
 def mouseClick(event):
     num=randint(1,6)
