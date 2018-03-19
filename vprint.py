@@ -6,4 +6,4 @@ def vprint(string):
     for ch in string:
         print(ch)
 
-vprint(James)
+vprint("James")
