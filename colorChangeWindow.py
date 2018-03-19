@@ -7,8 +7,6 @@ from ggame import *
 
 outline=LineStyle(1,0xffffff)
 
-color=Color(0xffff00,1)
-
 def mouseClick(event):
     num=randint(1,6)
     if num==1:
@@ -27,4 +25,4 @@ def mouseClick(event):
     Sprite(rectangle)
 
 App().listenMouseEvent("click", mouseClick)
-App.run()
+App().run()
