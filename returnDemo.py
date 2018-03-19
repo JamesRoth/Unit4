@@ -6,9 +6,8 @@ from random import randint
 
 def randEven(low,high):
     int=randint(low,high)
-    if int%2==0:
-        print(int)
-    else:
-        randEven(low,high)
+    while int/2!=0:
+        int=randint(low,high)
+    print(n)
 
 randEven(2,20)
