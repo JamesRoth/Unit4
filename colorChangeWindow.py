@@ -5,7 +5,7 @@
 from random import randint
 from ggame import *
 
-outline=LineStyle(0xffffff,1)
+outline=LineStyle(1,0xffffff)
 
 color=Color(0xffff00,1)
 
@@ -23,10 +23,8 @@ def mouseClick(event):
         color=Color(0xff00ff,1)
     else:
         color=Color(0xffffff,1)
-
-rectangle=RectangleAsset(1000, 2000, outline, color)
-
-Sprite(rectangle)
+    rectangle=RectangleAsset(1000, 2000, outline, color)
+    Sprite(rectangle)
 
 App().listenMouseEvent("click", mouseClick)
 App.run()
