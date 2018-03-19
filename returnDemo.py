@@ -4,9 +4,11 @@
 
 from random import randint
 
-def even(low,high):
+def randEven(low,high):
     int=randint(low,high)
     if int%2==0:
         print(int)
     else:
-        
+        randEven(low, high)
+
+randEven(2,20)
