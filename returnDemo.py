@@ -6,7 +6,7 @@ from random import randint
 
 def randEven(low,high):
     int=randint(low,high)
-    while int/2!=0:
+    while int%2!=0:
         int=randint(low,high)
     print(n)
 
