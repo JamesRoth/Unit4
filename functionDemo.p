@@ -17,13 +17,13 @@ double("wowwow")
 double(True)
 """
 
-"""
+
 def bigger(a,b):
     if a>b:
         print(a)
     else:
        print(b)
-bigger(12, 5)
+
 
 def slope(x1,y1,x2,y2):
     print((y1-y2)/(x1-x2))
@@ -34,7 +34,7 @@ while 1: #not a good habit
     i+=1
     if i==10:
         break
-"""
+
 
 print("The max of 3 and 4 is:", max(3,4))
 print("The max of 3 and 4 is:", bigger(3,4))
