@@ -2,5 +2,6 @@
 #3/9/18
 #vprint.py - printing up-down with functions
 
-def vprint(a):
-    
+def vprint(string):
+    for ch in string:
+        print(ch)
