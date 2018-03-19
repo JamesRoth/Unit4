@@ -8,6 +8,6 @@ def randEven(low,high):
     int=randint(low,high)
     while int%2!=0:
         int=randint(low,high)
-    print(n)
+    print(int)
 
 randEven(2,20)
