@@ -35,7 +35,7 @@ if __name__ == "__main__":
     
     Sprite(jungleBox)
     monkey=Sprite(monkeyBox)
-    banana=Sprite(bananaBox)
+    banana=Sprite(bananaBox,(500,300))
     
     App().listenKeyEvent("keydown","right arrow",moveRight)
     App().listenKeyEvent("keydown","left arrow",moveLeft)
