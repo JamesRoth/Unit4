@@ -9,6 +9,10 @@ ROWS = 30
 COLUMNS = 52
 CELL_SIZE = 20
 
+#functions
+def moveRight(event):
+    monkey.x+=CELL_SIZE
+
 if __name__ == "__main__":
     
     #colors
@@ -19,6 +23,7 @@ if __name__ == "__main__":
     monkeyBox=RectangleAsset(CELL_SIZE,CELL_SIZE,LineStyle(1,brown),brown)
     
     Sprite(jungleBox)
-    Sprite(monkeyBox)
+    monkey=Sprite(monkeyBox)
     
+    App().listenKeyEvent("keydown","right arrow",moveRight)
     App().run()
