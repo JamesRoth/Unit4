@@ -24,18 +24,24 @@ def moveLeft(event):
         monkey.x-=CELL_SIZE
         if monkey.x==banana.x and monkey.y==banana.y:
             moveBanana()
+            data{"score"}+=10
+            print(data{"score"})
 
 def moveUp(event):
     if monkey.y>0:
         monkey.y-=CELL_SIZE
         if monkey.x==banana.x and monkey.y==banana.y:
             moveBanana()
+            data{"score"}+=10
+            print(data{"score"})
 
 def moveDown(event):
     if monkey.y<(ROWS-2)*CELL_SIZE:
         monkey.y+=CELL_SIZE
         if monkey.x==banana.x and monkey.y==banana.y:
             moveBanana()
+            data{"score"}+=10
+            print(data{"score"})
     
 def moveBanana():
     banana.x=randint(1,COLUMNS-2)*CELL_SIZE
