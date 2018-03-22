@@ -41,6 +41,10 @@ def moveBanana():
 
 if __name__ == "__main__":
     
+    #hold variables in a dictionary
+    data={}
+    data{"score"} = 0
+    
     #colors
     green=Color(0x006600,1)
     brown=Color(0x8b4513,1)
