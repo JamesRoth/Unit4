@@ -36,8 +36,8 @@ def moveDown(event):
             moveBanana()
     
 def moveBanana():
-    banana.x=randint(1,COLUMNS-1)*CELL_SIZE
-    banana.y=randint(1,ROWS-1)*CELL_SIZE
+    banana.x=randint(1,COLUMNS-2)*CELL_SIZE
+    banana.y=randint(1,ROWS-2)*CELL_SIZE
 
 if __name__ == "__main__":
     
