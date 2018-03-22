@@ -12,7 +12,7 @@ CELL_SIZE = 20
 
 #functions
 def moveRight(event):
-    if monkey.x<(COLUMNS-1)*CELL_SIZE:
+    if monkey.x<(COLUMNS-2)*CELL_SIZE:
         monkey.x+=CELL_SIZE
         if monkey.x==banana.x and monkey.y==banana.y:
             moveBanana()
@@ -30,7 +30,7 @@ def moveUp(event):
             moveBanana()
 
 def moveDown(event):
-    if monkey.y<(ROWS-1)*CELL_SIZE:
+    if monkey.y<(ROWS-2)*CELL_SIZE:
         monkey.y+=CELL_SIZE
         if monkey.x==banana.x and monkey.y==banana.y:
             moveBanana()
