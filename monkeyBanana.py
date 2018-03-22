@@ -18,15 +18,21 @@ def moveRight(event):
 
 def moveLeft(event):
     monkey.x-=CELL_SIZE
+    if monkey.x==banana.x and monkey.y==banana.y:
+        moveBanana()
 
 def moveUp(event):
     monkey.y-=CELL_SIZE
+    if monkey.x==banana.x and monkey.y==banana.y:
+        moveBanana()
 
 def moveDown(event):
     monkey.y+=CELL_SIZE
+    if monkey.x==banana.x and monkey.y==banana.y:
+        moveBanana()
     
-def moveBanana:
-    banana.x=randint(1,COLUNMS-1)*CELL_SIZE
+def moveBanana():
+    banana.x=randint(1,COLUMNS-1)*CELL_SIZE
     banana.y=randint(1,ROWS-1)*CELL_SIZE
 
 if __name__ == "__main__":
