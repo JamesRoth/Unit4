@@ -16,6 +16,8 @@ def moveRight(event):
         monkey.x+=CELL_SIZE
         if monkey.x==banana.x and monkey.y==banana.y:
             moveBanana()
+            data{"score"}+=10
+            print(data{"score"})
 
 def moveLeft(event):
     if monkey.x>0:
