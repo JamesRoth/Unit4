@@ -26,7 +26,7 @@ def moveLeft(event):
             moveBanana()
             data["score"]+=10
             print(data["score"])
-
+            
 def moveUp(event):
     if monkey.y>0:
         monkey.y-=CELL_SIZE
@@ -34,6 +34,7 @@ def moveUp(event):
             moveBanana()
             data["score"]+=10
             print(data["score"])
+
 def moveDown(event):
     if monkey.y<(ROWS-2)*CELL_SIZE:
         monkey.y+=CELL_SIZE
@@ -50,7 +51,7 @@ if __name__ == "__main__":
     
     #hold variables in a dictionary
     data={}
-    data{"score"} = 0
+    data["score"] = 0
     
     #colors
     green=Color(0x006600,1)
