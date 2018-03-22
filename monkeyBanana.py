@@ -5,8 +5,8 @@
 from ggame import *
 
 #constants
-ROWS = 20
-COLUMNS = 40
+ROWS = 30
+COLUMNS = 52
 CELL_SIZE = 20
 
 if __name__ == "__main__":
