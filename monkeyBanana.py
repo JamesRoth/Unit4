@@ -5,8 +5,8 @@
 from ggame import *
 
 #constants
-ROWS = 29
-COLUMNS = 51
+ROWS = 28
+COLUMNS = 52
 CELL_SIZE = 20
 
 #functions
