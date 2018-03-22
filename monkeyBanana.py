@@ -20,6 +20,5 @@ if __name__ == "__main__":
     
     Sprite(jungleBox)
     Sprite(monkeyBox)
-    Sprite()
     
     App().run()
