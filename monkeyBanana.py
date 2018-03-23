@@ -11,20 +11,24 @@ COLUMNS = 52
 CELL_SIZE = 20
 
 #functions
-def moveRight(event):
+
+#moves the monkey right
+def moveRight(event): 
     if monkey.x<(COLUMNS-2)*CELL_SIZE:
         monkey.x+=CELL_SIZE
         if monkey.x==banana.x and monkey.y==banana.y:
             moveBanana()
             updateScore()
 
+#moves the monkey left
 def moveLeft(event):
     if monkey.x>0:
         monkey.x-=CELL_SIZE
         if monkey.x==banana.x and monkey.y==banana.y:
             moveBanana()
             updateScore()
-            
+
+#moves the monkey up
 def moveUp(event):
     if monkey.y>0:
         monkey.y-=CELL_SIZE
@@ -32,6 +36,7 @@ def moveUp(event):
             moveBanana()
             updateScore()
 
+#moves the monkey down
 def moveDown(event):
     if monkey.y<(ROWS-2)*CELL_SIZE:
         monkey.y+=CELL_SIZE
@@ -39,17 +44,20 @@ def moveDown(event):
             moveBanana()
             updateScore()
 
+#moves the banana once collected to a random location
 def moveBanana():
-    data["frames"]=0
+    data["frames"]=0 #resets timer
     banana.x=randint(1,COLUMNS-2)*CELL_SIZE
     banana.y=randint(1,ROWS-2)*CELL_SIZE
 
+#updates score + 10 when banana collected
 def updateScore():
     data["score"]+=10
     data["scoreText"].destroy() #remove old writing
     scoreBox=TextAsset("Score = " + str(data["score"]))
     data["scoreText"]=Sprite(scoreBox,(30, (ROWS-4)*CELL_SIZE))
-    
+ 
+#timer for moving banana   
 def step():
     data["frames"]+=1
     if data["frames"]%250==0:
