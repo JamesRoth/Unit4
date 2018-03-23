@@ -57,7 +57,7 @@ def updateScore():
     scoreBox=TextAsset("Score = " + str(data["score"]))
     data["scoreText"]=Sprite(scoreBox,(30, (ROWS-4)*CELL_SIZE))
  
-#timer for moving banana   
+#timer for moving banana - tracks frames 
 def step():
     data["frames"]+=1
     if data["frames"]%250==0:
