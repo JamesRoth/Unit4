@@ -61,10 +61,12 @@ if __name__ == "__main__":
     jungleBox=RectangleAsset(CELL_SIZE*COLUMNS,CELL_SIZE*ROWS,LineStyle(1,green),green)
     monkeyBox=RectangleAsset(CELL_SIZE,CELL_SIZE,LineStyle(1,brown),brown)
     bananaBox=RectangleAsset(CELL_SIZE,CELL_SIZE,LineStyle(1,yellow),yellow)
+    scoreBox=TextAsset("Score = 0")
     
     Sprite(jungleBox)
     monkey=Sprite(monkeyBox)
     banana=Sprite(bananaBox,(CELL_SIZE*COLUMNS/2,CELL_SIZE*ROWS/2))
+    Sprite(scoreBox, (0,ROWS*CELL_SIZE))
     
     App().listenKeyEvent("keydown","right arrow",moveRight)
     App().listenKeyEvent("keydown","left arrow",moveLeft)
