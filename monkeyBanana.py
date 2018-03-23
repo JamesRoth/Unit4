@@ -45,8 +45,9 @@ def moveBanana():
 
 def updateScore():
     data["score"]+=10
-    dat["scoreText"].destroy() #remove old writing
+    data["scoreText"].destroy() #remove old writing
     scoreBox=TextAsset("score = " + str(data["score"]))
+    data["scoreText"]=Sprite(scoreBox(10, (ROWS-3)*CELL_SIZE))
 
 if __name__ == "__main__":
     
