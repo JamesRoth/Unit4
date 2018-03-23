@@ -50,8 +50,8 @@ def updateScore():
     data["scoreText"]=Sprite(scoreBox,(30, (ROWS-4)*CELL_SIZE))
     
 def step():
-    data["frames"}+=1
-    if data["frames"]%300==0:
+    data["frames"]+=1
+    if data["frames"]%250==0:
         moveBanana()
 
 if __name__ == "__main__":
