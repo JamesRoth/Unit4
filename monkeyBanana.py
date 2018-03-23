@@ -42,6 +42,7 @@ def moveDown(event):
 def moveBanana():
     banana.x=randint(1,COLUMNS-2)*CELL_SIZE
     banana.y=randint(1,ROWS-2)*CELL_SIZE
+    data["frames"].destroy()
 
 def updateScore():
     data["score"]+=10
