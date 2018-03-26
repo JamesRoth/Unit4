@@ -2,9 +2,11 @@
 #3/26/18
 #localDemo.py - local variables
 
-def f(x):
+def f():
     x=20
+    y=200
 
 x = 2
-f(x)
+f()
 print(x)
+print(y)
