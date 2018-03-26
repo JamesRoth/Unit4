@@ -5,7 +5,7 @@
 def prime(num):
     for i in range(2, round(num/2)):
         if num%i==0:
-            return "True"
+            return "False"
             break
 
 print(prime(9))
