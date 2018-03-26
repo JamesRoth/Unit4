@@ -7,5 +7,6 @@ def prime(num):
         if num%i==0:
             return "False"
             break
+    return "False"
 
-print(prime(9))
+print(prime(11))
