@@ -4,7 +4,8 @@
 
 def squares(c,r):
    while r>0: 
-    print(+--+*c)
-    print(|  |*c)
-    print(+--+*c)
+    print("+--+"*c)
+    print("|  |"*c)
+    print("+--+"*c)
     r-=1
+squares(2,4)
