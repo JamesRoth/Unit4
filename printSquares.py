@@ -8,7 +8,6 @@ def squares(c,r):
         print("|  |  "*c)
         print("+--+--"*c)
         r-=1
-    print("+--+")
-    print("|  |")
-    print("+--+")
+    print("|  |"*c)
+    print("+--+"*c)
 squares(2,4)
