@@ -10,4 +10,5 @@ def squares(r,c):
         c-=1
     print("|  |  " + "|")
     print("+--+--" + "+")
-squares(2,4))
+squares(2,4)
+squares(4,2)
