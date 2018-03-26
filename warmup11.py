@@ -9,4 +9,4 @@ def prime(num):
             break
     return "True"
 
-print(prime(121))
+print(prime(17))
