@@ -2,12 +2,12 @@
 #3/26/18
 #printSquares - function that prints squares 
 
-def squares(c,r):
-    print("+--+--"*(c-1) + "+")
-    while r>1: 
-        print("|  |  "*(c-1) + "|")
-        print("+--+--"*(c-1) + "+")
-        r-=1
+def squares(r,c):
+    print("+--+--"*(r-1) + "+")
+    while c>1: 
+        print("|  |  "*(r-1) + "|")
+        print("+--+--"*(r-1) + "+")
+        c-=1
     print("|  |  " + "|")
     print("+--+--" + "+")
-squares(2,4)
+squares(2,4))
