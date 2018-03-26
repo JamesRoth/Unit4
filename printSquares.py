@@ -3,11 +3,10 @@
 #printSquares - function that prints squares 
 
 def squares(c,r):
-    print("+--+--"*c)
+    print("+--+--"*(c-1) + "+")
     while r>1: 
-        print("|  |  "*c)
-        print("+--+--"*c)
+        print("|  |  "*(c-1) + "|")
+        print("+--+--"*(c-1) + "+")
         r-=1
-    print("|  |"*c)
-    print("+--+"*c)
+
 squares(2,4)
