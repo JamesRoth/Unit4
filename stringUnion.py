@@ -4,8 +4,8 @@
 
 def stringUnion(w1,w2):
     string=""
-    w1.lower()
-    w2.lower()
+    w1=w1.lower()
+    w2=w2.lower()
     for ch in w1:
         if ch not in string:
             string+=ch
