@@ -10,6 +10,6 @@ def stringUnion(w1,w2):
     for ch in w2:
         if ch not in string:
             string+=ch
-    
+    return(string)
 
-stringUnion(Mississippi, Pennsylvania)
+print(stringUnion("Mississippi", "Pennsylvania"))
