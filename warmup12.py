@@ -4,11 +4,12 @@
 
 def GCF(num1,num2):
     ans=""
-    mini=min(num1,num2)
-    maxi=max(num1,num2)
+    MAXI=max(num1,num2)
+    
+    counter=min(num1,num2)
+    
     while ans=="":
-        if maxi%mini=0:
-            ans=int(mini)
+        if MAXI%counter=0:
+            ans=int(counter)
         else: 
-            
-        
+            counter-=1
