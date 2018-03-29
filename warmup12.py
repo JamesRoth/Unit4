@@ -3,15 +3,15 @@
 #warmup12.py - returning GCF of 2 numbers
 
 def gcf(num1,num2):
-    ans=""
     MAXI=max(num1,num2)
     
     counter=min(num1,num2)
     
-    while ans=="" and counter>0:
-        if MAXI%counter==0:
+    while counter>0:
+        if MAXI%counter==0 and min(num1,num2)%counter==0:
             ans=int(counter)
             print(int(counter))
+            break
         else: 
             counter-=1
 
