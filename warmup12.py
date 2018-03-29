@@ -8,11 +8,11 @@ def gcf(num1,num2):
     
     counter=min(num1,num2)
     
-    while ans=="":
+    while ans=="" and counter>0:
         if MAXI%counter==0:
             ans=int(counter)
             print(int(counter))
         else: 
             counter-=1
 
-gcf(10,5)
+gcf(25,10)
