@@ -5,5 +5,9 @@
 def countdown(n):
     if n==0: # called the "base case"
         print("BOOM!")
+    else: 
+        print(n)
+        n-=1
+        countdown(n)
 
 countdown(0)
