@@ -11,4 +11,4 @@ def stringInt(a,b):
             ans=ans+str(ch)
     return ans
 
-stringInt(James, Andrew)
+stringInt("James", "Andrew")
