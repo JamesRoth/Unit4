@@ -1,6 +1,6 @@
 #James Roth
 #3/29/18
-#stringInteresct.py - common letter from 2 strings
+#stringInteresct.py - common letters from 2 strings
 
 def stringInt(a,b):
     a=a.lower()
@@ -8,7 +8,7 @@ def stringInt(a,b):
     ans=""
     for ch in a:
         if ch in b:
-            ans=ans+str(ch)
+            ans=ans+ch
     return ans
 
-stringInt("James", "Andrew")
+print(stringInt("James", "Andrew"))
