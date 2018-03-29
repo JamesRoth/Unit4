@@ -4,4 +4,6 @@
 
 def coundown(n):
     if n==0: # called the "base case"
-        print(BOOM!)
+        print("BOOM!")
+
+countdown(0)
