@@ -4,7 +4,7 @@
 
 def stringInt(a,b):
     a=a.lower()
-    b=b.lower()s
+    b=b.lower()
     ans=""
     for ch in a:
         if ch in b:
