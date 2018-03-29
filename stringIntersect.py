@@ -7,7 +7,7 @@ def stringInt(a,b):
     b=b.lower()
     ans=""
     for ch in a:
-        if ch in b:
+        if ch in b and ch not in ans:
             ans=ans+ch
     return ans
 
