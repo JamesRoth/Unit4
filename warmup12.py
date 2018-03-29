@@ -15,4 +15,6 @@ def gcf(num1,num2):
         else: 
             counter-=1
 
-gcf(25,10)
+gcf(12,15)
+gcf(9,5)
+gcf(16,64)
