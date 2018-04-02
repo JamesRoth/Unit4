@@ -5,3 +5,5 @@
 def count(a):
     for i in range(1, a+1):
         print(i)
+
+count(10)
