@@ -14,4 +14,10 @@ def firstLetter(a):
     for ch in a:
         return ch
 
-print(firstLetter("James"))
+def repeats(a,b,c):
+    if a==b or b==c or a==c:
+        return True
+    else:
+        return False
+
+print(repeats(10,5,10))
