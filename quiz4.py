@@ -20,4 +20,4 @@ def repeats(a,b,c):
     else:
         return False
 
-print(repeats(10,5,10))
+print(repeats(10,5,0))
