@@ -7,6 +7,11 @@ def count(a):
         print(i)
 
 def excitedPrint(a):
-    a.upper(a)
+    a=a.upper()
     print(a+"!!!")
-excitedPrint("james")
+
+def firstLetter(a):
+    for ch in a:
+        return ch
+
+print(firstLetter("James"))
