@@ -6,4 +6,7 @@ def count(a):
     for i in range(1, a+1):
         print(i)
 
-count(10)
+def excitedPrint(a):
+    a.upper(a)
+    print(a+"!!!")
+ecitedPrint(james)
