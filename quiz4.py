@@ -19,5 +19,3 @@ def repeats(a,b,c):
         return True
     else:
         return False
-
-print(repeats(10,5,0))
