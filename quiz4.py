@@ -9,4 +9,4 @@ def count(a):
 def excitedPrint(a):
     a.upper(a)
     print(a+"!!!")
-ecitedPrint(james)
+excitedPrint("james")
